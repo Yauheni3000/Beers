@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		AEED0D942B07629C00600A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED0D932B07629C00600A9B /* AppDelegate.swift */; };
 		AEED0D962B07629C00600A9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED0D952B07629C00600A9B /* SceneDelegate.swift */; };
-		AEED0D982B07629C00600A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED0D972B07629C00600A9B /* ViewController.swift */; };
 		AEED0D9B2B07629C00600A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEED0D992B07629C00600A9B /* Main.storyboard */; };
 		AEED0D9D2B07629D00600A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEED0D9C2B07629D00600A9B /* Assets.xcassets */; };
 		AEED0DA02B07629D00600A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEED0D9E2B07629D00600A9B /* LaunchScreen.storyboard */; };
+		AEED0DAE2B07633500600A9B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED0DAD2B07633500600A9B /* Networking.swift */; };
+		AEED0DB02B07634400600A9B /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED0DAF2B07634400600A9B /* Beer.swift */; };
+		AEED0DB22B07654300600A9B /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED0DB12B07654300600A9B /* CustomCollectionViewCell.swift */; };
+		AEED0DB42B07656C00600A9B /* BeersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED0DB32B07656C00600A9B /* BeersCollectionViewController.swift */; };
+		AEED0DB62B07ADCC00600A9B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED0DB52B07ADCC00600A9B /* DetailsViewController.swift */; };
+		AEED96EA2B0E2034007B414B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED96E92B0E2034007B414B /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEED0D902B07629C00600A9B /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEED0D932B07629C00600A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEED0D952B07629C00600A9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEED0D972B07629C00600A9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEED0D9A2B07629C00600A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEED0D9C2B07629D00600A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEED0D9F2B07629D00600A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEED0DA12B07629D00600A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEED0DAD2B07633500600A9B /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		AEED0DAF2B07634400600A9B /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		AEED0DB12B07654300600A9B /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		AEED0DB32B07656C00600A9B /* BeersCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersCollectionViewController.swift; sourceTree = "<group>"; };
+		AEED0DB52B07ADCC00600A9B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		AEED96E92B0E2034007B414B /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,68 @@
 		AEED0D922B07629C00600A9B /* Beers */ = {
 			isa = PBXGroup;
 			children = (
-				AEED0D932B07629C00600A9B /* AppDelegate.swift */,
-				AEED0D952B07629C00600A9B /* SceneDelegate.swift */,
-				AEED0D972B07629C00600A9B /* ViewController.swift */,
-				AEED0D992B07629C00600A9B /* Main.storyboard */,
-				AEED0D9C2B07629D00600A9B /* Assets.xcassets */,
-				AEED0D9E2B07629D00600A9B /* LaunchScreen.storyboard */,
-				AEED0DA12B07629D00600A9B /* Info.plist */,
+				AEED0DAC2B07630D00600A9B /* Services */,
+				AEED0DAB2B07630400600A9B /* Models */,
+				AEED0DA72B0762AF00600A9B /* ViewControllers */,
+				AEED0DA82B0762C200600A9B /* StoryBoards */,
+				AEED0DAA2B0762E800600A9B /* Resourse */,
+				AEED0DA92B0762D200600A9B /* App */,
 			);
 			path = Beers;
+			sourceTree = "<group>";
+		};
+		AEED0DA72B0762AF00600A9B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEED0DB12B07654300600A9B /* CustomCollectionViewCell.swift */,
+				AEED0DB32B07656C00600A9B /* BeersCollectionViewController.swift */,
+				AEED0DB52B07ADCC00600A9B /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AEED0DA82B0762C200600A9B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				AEED0D992B07629C00600A9B /* Main.storyboard */,
+				AEED0D9E2B07629D00600A9B /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		AEED0DA92B0762D200600A9B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AEED0D932B07629C00600A9B /* AppDelegate.swift */,
+				AEED0D952B07629C00600A9B /* SceneDelegate.swift */,
+				AEED0DA12B07629D00600A9B /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AEED0DAA2B0762E800600A9B /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				AEED0D9C2B07629D00600A9B /* Assets.xcassets */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		AEED0DAB2B07630400600A9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AEED0DAF2B07634400600A9B /* Beer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEED0DAC2B07630D00600A9B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AEED0DAD2B07633500600A9B /* Networking.swift */,
+				AEED96E92B0E2034007B414B /* ImageCache.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEED0D982B07629C00600A9B /* ViewController.swift in Sources */,
+				AEED0DB42B07656C00600A9B /* BeersCollectionViewController.swift in Sources */,
+				AEED0DB22B07654300600A9B /* CustomCollectionViewCell.swift in Sources */,
+				AEED96EA2B0E2034007B414B /* ImageCache.swift in Sources */,
 				AEED0D942B07629C00600A9B /* AppDelegate.swift in Sources */,
+				AEED0DB02B07634400600A9B /* Beer.swift in Sources */,
+				AEED0DB62B07ADCC00600A9B /* DetailsViewController.swift in Sources */,
 				AEED0D962B07629C00600A9B /* SceneDelegate.swift in Sources */,
+				AEED0DAE2B07633500600A9B /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Beers/Info.plist;
+				INFOPLIST_FILE = Beers/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,9 +374,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = YauheniYurhsa.Beers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +391,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Beers/Info.plist;
+				INFOPLIST_FILE = Beers/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,9 +404,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = YauheniYurhsa.Beers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
